@@ -45,4 +45,13 @@ int firstDigit = GetFirstDigit(num);
 int lastDigit = GetLastDigit(num);
 //PrintNumber(lastDigit);
 ShowLargestDigit(firstDigit,lastDigit);
+
+Console.WriteLine();
+
+int num2 = GetRandomNumber();
+PrintNumber(num2);
+int firstDigit2 = GetFirstDigit(num2);
+int lastDigit2 = GetLastDigit(num2);
+ShowLargestDigit(firstDigit2,lastDigit2);
+
  // переменные которые вне метода мы называем по разному, не так как внутри метода
