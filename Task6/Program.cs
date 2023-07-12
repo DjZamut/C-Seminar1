@@ -30,4 +30,11 @@ void GetResult(int X, int Y)
 
 int x = Promt("Введите точку X: ");
 int y = Promt("Введите точку Y: ");
+if (x != 0 && y != 0)
+{
 GetResult(x, y);
+}
+else
+{
+    System.Console.WriteLine("Неверный формат данных!!!");
+}
